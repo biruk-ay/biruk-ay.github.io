@@ -18,7 +18,7 @@ export class AppComponent {
   
   async getData() {
     try {
-      const response = await axios.get("https://ac7eaa66896fd2.lhr.life");
+      const response = await axios.get("https://27f86d19b3bc5c.lhr.life");
       console.log(response.data)
       this.result = response.data;
     }
